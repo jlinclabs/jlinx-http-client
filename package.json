@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/jlinclabs/jlinx#readme",
   "dependencies": {
-    "@jlinc/jwt": "^1.0.3",
     "autobase": "^1.0.0-alpha.8",
     "debug": "^4.3.4",
     "ini": "^3.0.0",
