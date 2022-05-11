@@ -26,7 +26,8 @@
     "autobase": "^1.0.0-alpha.8",
     "debug": "^4.3.4",
     "ini": "^3.0.0",
-    "jlinx-core": "file:../core",
+    "jlinx-core": "github:jlinclabs/jlinx-core",
+    "node-fetch": "^3.2.4",
     "urlsafe-base64": "^1.0.0"
   }
 }
