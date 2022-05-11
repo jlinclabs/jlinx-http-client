@@ -1,5 +1,5 @@
 {
-  "name": "jlinx-client",
+  "name": "jlinx-http-client",
   "type": "module",
   "version": "1.0.0",
   "description": "DIDs on Hypercore",
