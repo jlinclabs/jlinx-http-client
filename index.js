@@ -3,7 +3,7 @@ import http from 'node:http'
 import https from 'node:https'
 import fetch from 'node-fetch'
 import { URL } from 'url'
-import { createSigningKeyPair, keyToBuffer, keyToDid, didToKey } from 'jlinx-core/util.js'
+import { createSigningKeyPair, keyToBuffer, keyToDid, didToKey } from 'jlinx-util'
 
 const debug = Debug('jlinx:remoteAgent')
 

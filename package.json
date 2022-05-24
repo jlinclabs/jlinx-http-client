@@ -1,15 +1,15 @@
 {
-  "name": "jlinx-http-client",
+  "name": "jlinx-http-node",
   "type": "module",
   "version": "1.0.0",
-  "description": "DIDs on Hypercore",
+  "description": "provides a jlinc-node api for a remote jlinx-http-server",
   "main": "index.js",
   "scripts": {
     "test": "./scripts/test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jlinclabs/jlinx.git"
+    "url": "https://github.com/jlinclabs/jlinx-http-node.git"
   },
   "keywords": [
     "hypercore",
@@ -18,14 +18,14 @@
   "author": "Jared Grippe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jlinclabs/jlinx/issues"
+    "url": "https://github.com/jlinclabs/jlinx-http-node/issues"
   },
-  "homepage": "https://github.com/jlinclabs/jlinx#readme",
+  "homepage": "https://github.com/jlinclabs/jlinx-http-node#readme",
   "dependencies": {
     "autobase": "^1.0.0-alpha.8",
     "debug": "^4.3.4",
     "ini": "^3.0.0",
-    "jlinx-core": "github:jlinclabs/jlinx-core",
+    "jlinx-util": "github:jlinclabs/jlinx-util",
     "node-fetch": "^3.2.4",
     "urlsafe-base64": "^1.0.0"
   }
