@@ -82,7 +82,11 @@ export default class JlinxHttpClient {
   }
 
   async createDid(){
-    return await this.postJSON('/new', {})
+    const { did, secret } = await this.postJSON('/new', {})
+    // TODO make duplicates of each jlinx document type
+    // do it can have same api proxied over HTTP
+    const didDocument = new DidDocument({ did, secret })
+    return didDocument
   }
 
   async amendDid({did, secret, value}){
